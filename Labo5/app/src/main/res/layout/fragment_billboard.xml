@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="top"
     android:background="#202040"
-    tools:context=".billboardFragment">
+    tools:context=".ui.movie.billboardFragment">
 
     <TextView
         android:id="@+id/textView"

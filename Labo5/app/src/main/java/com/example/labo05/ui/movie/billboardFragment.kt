@@ -1,12 +1,13 @@
-package com.example.labo05
+package com.example.labo05.ui.movie
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.cardview.widget.CardView
+import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
+import com.example.labo05.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class billboardFragment : Fragment() {
