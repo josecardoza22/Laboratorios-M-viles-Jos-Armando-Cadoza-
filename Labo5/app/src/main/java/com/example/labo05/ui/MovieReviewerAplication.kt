@@ -1,4 +1,4 @@
-package com.example.labo05
+package com.example.labo05.ui
 
 import android.app.Application
 import com.example.labo05.data.movies

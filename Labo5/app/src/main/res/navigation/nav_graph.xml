@@ -24,7 +24,7 @@
         tools:layout="@layout/fragment_movie" />
     <fragment
         android:id="@+id/newMovieFragment"
-        android:name="com.example.labo05.ui.movie.newMovieFragment"
+        android:name="com.example.labo05.ui.movie.newMovie.newMovieFragment"
         android:label="fragment_new_movie"
         tools:layout="@layout/fragment_new_movie" />
 </navigation>
