@@ -8,6 +8,7 @@ import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.example.laboratorio05.MovieReviewerApplication
 import com.example.laboratorio05.data.model.ActorModel
+import com.example.laboratorio05.data.model.CastModel
 import com.example.laboratorio05.data.model.MovieModel
 import com.example.laboratorio05.repositories.CastRepository
 import kotlinx.coroutines.launch
@@ -21,11 +22,6 @@ class CastingViewModel(private val repository: CastRepository): ViewModel() {
         movieId.value = movie.movieId.toString()
     }
 
-    // TODO: delete this function
-    fun createCasting() {}
-
-    // TODO: uncomment
-    /*
     fun selectActor(actor: ActorModel) {
         actorId.value = actor.actorId.toString()
     }
@@ -52,7 +48,7 @@ class CastingViewModel(private val repository: CastRepository): ViewModel() {
 
         status.value = CAST_CREATED
     }
-     */
+
 
     private fun validateData(): Boolean {
         when {

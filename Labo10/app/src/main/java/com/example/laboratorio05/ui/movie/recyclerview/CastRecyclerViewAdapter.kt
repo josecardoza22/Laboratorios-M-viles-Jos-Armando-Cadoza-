@@ -8,7 +8,7 @@ import com.example.laboratorio05.databinding.ActorItemBinding
 
 class CastRecyclerViewAdapter: RecyclerView.Adapter<CastRecyclerViewHolder>() {
 
-   private val cast = ArrayList<ActorModel>()
+    private val cast = ArrayList<ActorModel>()
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CastRecyclerViewHolder {

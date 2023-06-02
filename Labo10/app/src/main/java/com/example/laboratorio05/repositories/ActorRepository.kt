@@ -1,5 +1,11 @@
 package com.example.laboratorio05.repositories
 
-class ActorRepository() {
-        // TODO: complete Actor ActorRepository
+import com.example.laboratorio05.data.dao.ActorDao
+import com.example.laboratorio05.data.model.ActorModel
+
+class ActorRepository(private val actorsDao: ActorDao) {
+
+    suspend fun getAllActors() = actorsDao.getAllActors()
+
+    suspend fun insetActor(actor: ActorModel) = actorsDao.insertActor(actor)
 }

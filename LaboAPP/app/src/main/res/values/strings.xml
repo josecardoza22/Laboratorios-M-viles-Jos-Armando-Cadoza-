@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Laboratorio-05</string>
+    <string name="app_name">LaboAPP</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tittle_new_movie_text">New Movie</string>
